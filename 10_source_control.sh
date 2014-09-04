@@ -82,7 +82,7 @@ function _reset_revcntl()
   if _find_p4_root;  then RCS="${RCS:+$RCS+}p4";  fi
 
   if [ "$RCS" ]; then
-    REVCNTL_PS1=" ${SETCYAN_N}[${RCS}]${SETNORMAL}"
+    REVCNTL_PS1=" [${RCS}]"
   else
     REVCNTL_PS1=""
   fi

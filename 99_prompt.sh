@@ -1,1 +1,1 @@
-export PS1="\$REVCNTL_PS1 $PS1"
+export PS1="\[${SETCYAN_N}\]\$REVCNTL_PS1\[${SETNORMAL}\] $PS1"
